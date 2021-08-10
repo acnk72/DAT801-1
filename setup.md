@@ -28,13 +28,13 @@ Etter installasjon, kjør `python --version` i et terminal-vindu (på Windows, b
 
 Etter installasjon av Anaconda, gå gjennom følgende steg. Bruk et terminalvindu på GNU/Linux og MacOS, "Anaconda Prompt" på Windows. 
 
-### Installer Git:
+### Installer Git
 
 ```bash
 conda install git
 ```
 
-### Last ned kursrepositoriet:
+### Last ned kursrepositoriet
 
 ```bash
 git clone https://github.com/alu042/DAT801
