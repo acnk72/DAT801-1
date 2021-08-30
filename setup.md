@@ -4,6 +4,8 @@ Hvis du ønsker å bruke din egen maskin til å arbeide med kursmaterialet bør 
 
 > NB: Som nevnt er dette valgfritt: du kan også bruke skytjenester til å arbeide med kodematerialet, for slik å unngå potensielle installasjonsproblemer.
 
+
+## Allerede installert, og skal bare tilbake til arbeidet?
 _Merk at du kun behøver å kjøre gjennom denne oppskriften én gang per maskin du ønsker å bruke. Hvis du har installert alt og bare skal starte opp Jupyter Notebook for å fortsette arbeidet, skriv følgende i din terminal (Anaconda Prompt hvis du bruker Windows) for å (i) gå inn i katalogen du har lagret kursrepositoriet, (ii) laste ned eventuelle oppdateringer, (iii) aktivere Python-omgivelsene og (iv) starte Jupyter Notebook. Hvis du har lagret dat801-repositoriet et annet sted på maskinen, må du bruke `cd` (som betyr «Change Directory») til du står inne i korrekt katalog._
 ```bash
 cd dat801 
