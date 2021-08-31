@@ -15,9 +15,14 @@ Kurset gir en innføring i data science og maskinlæring rettet mot forretningsu
 
 # Kom i gang
 
-Det er to alternative måter å arbeide med kodematerialet: enten lokalt på din egen maskin eller via Google Colab. Til hver notebook vil det være en link til tilhørende Google Colab-versjon. Du kan også trykke her: 
+Det er to alternative måter å arbeide med kodematerialet: enten lokalt på din egen maskin eller via Google Colab. Trykk her for å starte kurs-notebooks gjennom Google Colab: 
 
 [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alu042/DAT801/blob/master/)
+
+Som en backup-løsning kan du bruke Binder: 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alu042/DAT801/master)<br>
+
 
 ## Installer programvare
 Hvis du ønsker å bruke din egen maskin, se instruksjoner her: [Installer programvare](./setup.md). 
