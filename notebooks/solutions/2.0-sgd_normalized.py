@@ -13,7 +13,7 @@ X_train_std = std.transform(X_train)
 X_test_std = std.transform(X_test)
 
 # Create and train an SGDClassifier
-sgd_clf_std = SGDClassifier()
+sgd_clf_std = SGDClassifier(random_state=20)
 sgd_clf_std.fit(X_train_std, y_train)
 
 # Compute the cross validation predictions on the training set
