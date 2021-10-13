@@ -18,7 +18,7 @@ dependencies:
 - conda-forge::category_encoders
 - conda-forge::shap
 - conda-forge::voila
-- conda-forge::pycaret
+#- conda-forge::pycaret
 - pip:
   - pip >= 20.0
   - kaggle
