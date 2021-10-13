@@ -78,6 +78,24 @@ Ved å kjøre følgende kommando åpnes det et nettleservindu. Trykk på `0.0-te
 jupyter notebook
 ```
 
+## Installer PyCaret
+
+### Konfigurer Python-omgivelsene
+```bash
+conda env update --file environment-pycaret.yml
+```
+
+### Aktiver omgivelsene
+```bash
+conda activate dat801-pycaret
+```
+
+### Installer en Jupyter kernel
+
+```bash
+python -m ipykernel install --user --name dat801-pycaret --display-name "DAT801-PyCaret"
+```
+
 
 ## Oppdateringer
 
