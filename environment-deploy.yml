@@ -17,6 +17,7 @@ dependencies:
   - pip >= 20.0
   - pycaret[full]
   - pandas-profiling
+  - openpyxl
   - xlrd
   - Flask
   - flask_bootstrap
