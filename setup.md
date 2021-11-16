@@ -97,6 +97,30 @@ python -m ipykernel install --user --name dat801-pycaret --display-name "DAT801-
 ```
 
 
+## Installer rammeverk for deployment (notebooks 6.0 og 6.1)
+
+### Konfigurer Python-omgivelsene
+```bash
+conda env update --file environment-deploy.yml
+```
+
+### Aktiver omgivelsene
+```bash
+conda activate dat801-deployment
+```
+
+### Installer en Jupyter kernel
+
+```bash
+python -m ipykernel install --user --name dat801-deployment --display-name "DAT801-deployment"
+```
+
+### Sett opp extension for interaktive plots
+
+```bash
+jupyter nbextension enable --py bqplot
+```
+
 ## Oppdateringer
 
 Nytt innhold vil legges til i repositoriet underveis i kurset. Kjør følgende kommandoer regelmessig for å sikre at du har siste versjon av innholdet:
